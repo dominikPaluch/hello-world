@@ -21,15 +21,20 @@
 			}
 			else{
 				echo "login failed!";
-				
+				exit;
 			}
+		  
 	  }
+
+
 ?>
+
+
 
 <html>
 <head><title>Login|DominikPaluch</title></head>
     <body>
-        <h1>Login Example|<a href=â€http://www.drewpal.euâ€>DominikPaluch</a></h1>
+        <h1>Login Example|<a href=”http://www.google.com”>DominikPaluch</a></h1>
         <form action="<?PHP $_PHP_SELF ?>" method="post">
             Username <input type="text" name="txtUsername" value="" /><br/>
             Password <input type="password" name="txtPassword" value="" /><br/>
